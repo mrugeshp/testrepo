@@ -28,12 +28,14 @@
 									<a href="#"><i class="fa fa-pencil-square-o"></i> Take Attendance</a>
 							</li>
 							<li>
+									<a href="#"><i class="fa fa-book"></i> Reports</a>
+							</li>
+							<li>
 									<a href="#"><i class="fa fa-info"></i> Help</a>
 							</li>
 							<li>
 									<a href="#"><i class="fa fa-sign-out"></i> Logout</a>
 							</li>
-							
 					</ul>
 			</nav>
 			<!-- /#sidebar-wrapper -->
@@ -48,52 +50,68 @@
 				<div class="container">
 						<div class="row">
 							<h1 class="page-header">Take Attendance</h1>  
-							<table class="table table-striped table-hover ">
-								<thead>
-									<tr>
-										<th>Roll No</th>
-										<th>Name</th>
-										<th>isPresent</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-									<tr>
-										<td>2</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-									<tr>
-										<td>3</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-									<tr class="success">
-										<td>4</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-									<tr class="danger">
-										<td>5</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-									<tr>
-										<td>6</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-									<tr>
-										<td>7</td>
-										<td>Column content</td>
-										<td><input type="checkbox" name="chk1" checked></td>
-									</tr>
-								</tbody>
-							</table> 
+								
+							<form class="form-inline">
+									
+								<div class="form-group">
+									<label for="select" class="">Class</label>
+									<select class="form-control">
+										<option>DB</option>
+										<option>DFS</option>
+										<option>Maths</option>
+										<option>C language</option>
+									</select>									
+								</div>
+									
+								<input type="submit" class="btn btn-primary" name="sbt_top" value="Save Attendance">
+								<table class="table table-striped table-hover ">
+									<thead>
+										<tr>
+											<th>Roll No</th>
+											<th>Name</th>
+											<th>isPresent</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>1</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+										<tr class="success">
+											<td>4</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+										<tr class="danger">
+											<td>5</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+										<tr>
+											<td>6</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+										<tr>
+											<td>7</td>
+											<td>Column content</td>
+											<td><input type="checkbox" name="chk1" checked></td>
+										</tr>
+									</tbody>
+								</table> 
+								<input type="submit" class="btn btn-primary" value="Save Attendance" name="sbt_bottom">
+							</form>
 						</div>
 				</div>
 			</div>
