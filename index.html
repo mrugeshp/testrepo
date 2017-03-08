@@ -7,7 +7,9 @@
     <title>Test Repo Page</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="css/font-awesome.min.css" rel="stylesheet">
+		<link href="css/vendor/bootstrap-datepicker3.css" rel="stylesheet">
 		<link href="css/style.css" rel="stylesheet">
+		
   </head>
   <body>
 		<div id="wrapper">
@@ -62,7 +64,17 @@
 										<option>C language</option>
 									</select>									
 								</div>
-									
+								
+								
+									<div class="form-group input-group date" data-provide="datepicker">
+										<label for="select" class="">Date</label>
+										<input type="text" class="form-control">
+										<span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+									</div>
+								
+								
 								<input type="submit" class="btn btn-primary" name="sbt_top" value="Save Attendance">
 								<table class="table table-striped table-hover ">
 									<thead>
@@ -119,8 +131,16 @@
     </div>
     <!-- /#wrapper -->
 		
+		
+		
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+		<script src="js/vendor/bootstrap-datepicker.min.js"></script>
 		<script src="js/custom.js"></script>
+		
+		<script>
+			$('.datepicker').datepicker();
+		</script>
+		
   </body>
 </html>
